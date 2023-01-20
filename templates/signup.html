@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/static/signup.css">
+  <title>ahyans app</title>
+</head>
+<body>
+    <div class="signup-wrapper">
+        <form action="/signup" class="form" method="post">
+        <h2>Signup</h2>
+        <div class="input-group">
+            <label for="SignupUser">User Name</label><br><br>
+            <input type="text" name="SignupUser" id="SignupUser" required>
+        </div>
+        <div class="input-group">
+            <label for="SignupPassword">Password</label><br><br>
+            <input type="password" name="SignupPassword" id="SignupPassword" required>
+        </div>
+        <input type="submit" value="Signup" class="submit-btn">
+        </form>
+    </div>
+</body>
+</html>
